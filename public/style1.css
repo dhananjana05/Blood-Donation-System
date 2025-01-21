@@ -1,0 +1,268 @@
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgb(219, 219, 219);
+}
+
+.container{
+
+  width: 1000px;
+  margin: auto;
+}
+header{
+ 
+   background-color: #5bc3f4;
+   color: #fff;
+   height: 40vh;
+
+
+}
+
+.navbar{
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu_items a{
+
+  margin: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar_acc img{
+
+  width:30px ;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+
+
+
+   
+
+}
+
+.name{
+  display: flex;
+  
+  
+}
+.name p{
+
+  margin-left: 10px;
+}
+
+ 
+
+
+
+
+.hero_section{
+
+  padding: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero_section .acc_details{
+
+  display: flex;
+  align-items: center;
+
+}
+
+.acc_details img{
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+
+
+/*card   */
+
+.card_wrap{
+
+  margin-top: 0.6rem;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.card_wrap .card{
+
+  padding: 10px;
+  width: 200px;
+  background-color: #fff;
+  border-radius:10px;
+  color: #000;
+
+
+}
+.card .info{
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.card .info i{
+
+   padding: 10px;
+   background: rgb(220 ,229,238);
+   border-radius: 50%;
+   color: #5bc3f4;
+   font-size: 1.5rem;
+
+}
+.card .info .rank{
+
+  color: rgb(177, 180, 180);
+
+}
+
+.card .detail{
+  margin-top: 10px;
+  padding: 20px;
+
+}
+.card .detail span{
+
+  font-size: 10px;
+
+}
+.card .detail h2 span{
+  color: gray;
+
+}
+
+
+
+.body_section{
+
+
+   margin-top: 6rem;
+}
+.analytic{
+
+  padding: 10px;
+}
+
+.anay_wrap{
+
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+
+}
+
+
+.analy_buttons{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analy_buttons button{
+
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(220, 229, 238);
+}
+
+.analy_buttons .active{
+
+  background: #5bc3f4;
+  color: #fff;
+}
+
+.analy_buttons button:hover{
+
+  
+  background: ;
+  color: #5bc3f4;
+  transition: 0.5s;   
+
+}
+
+
+
+.search_box{
+
+padding: 8px;
+border-radius:5px;
+background: rgb(220, 229, 238);
+display: flex;
+align-items: center;
+
+}
+
+.search_box i{
+
+  margin-right: 10px;
+  color: #5bc3f4;
+}
+
+.search_box input{
+
+  background: transparent;
+  cursor: pointer;
+
+
+}
+
+
+table{
+
+
+  width: 100%;
+  text-align: left;
+
+}
+
+table th,td{
+
+  font-size: 16px;
+  padding: 0.8rem 2rem;
+  color: rgb(170, 170, 170);
+  border-bottom: 1px solid  rgb(220, 220, 220) ;
+
+}
+
+
+.name{
+
+  padding: 0px;
+  margin-left: 2px;
+}

@@ -1,0 +1,415 @@
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgb(205, 200, 200);
+}
+
+.container{
+
+  width: 1000px;
+  margin: auto;
+}
+header{
+ 
+   background-color: #5bc3f4;
+   color: #fff;
+   height: 40vh;
+
+
+}
+
+.navbar{
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu_items a{
+
+  margin: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar_acc img{
+
+  width:30px ;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+
+
+
+   
+
+}
+
+.name{
+  display: flex;
+  
+  
+}
+.name p{
+
+  margin-left: 10px;
+}
+
+ 
+
+
+
+
+.hero_section{
+
+  padding: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero_section .acc_details{
+
+  display: flex;
+  align-items: center;
+
+}
+
+.acc_details img{
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+
+
+/*card   */
+
+.card_wrap{
+
+  margin-top: 0.6rem;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.card_wrap .card{
+
+  padding: 10px;
+  width: 200px;
+  background-color: #fff;
+  border-radius:10px;
+  color: #000;
+
+
+}
+.card .info{
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.card .info i{
+
+   padding: 20px;
+
+   background: rgb(255, 255, 255);
+   margin-left: 50px;
+   align-items: center;
+
+    
+
+  
+   border-radius: 50%;
+   color: #5bc3f4;
+   font-size: 1.5rem;
+
+}
+.card .info .rank{
+
+  color: rgb(177, 180, 180);
+
+}
+
+.card .detail{
+  margin-top: 10px;
+  padding: 20px;
+
+}
+.card .detail span{
+
+  font-size: 20px;
+
+}
+.card .detail h2 span{
+  color: gray;
+
+}
+
+
+
+.body_section{
+
+
+   margin-top: 6rem;
+}
+.analytic{
+
+  padding: 10px;
+}
+
+.anay_wrap{
+
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+
+}
+
+
+.analy_buttons{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analy_buttons button{
+
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(220, 229, 238);
+}
+
+.analy_buttons .active{
+
+  background: #5bc3f4;
+  color: #fff;
+}
+
+.analy_buttons button:hover{
+
+  
+  background: ;
+  color: #5bc3f4;
+  transition: 0.5s;   
+
+}
+
+
+
+.search_box{
+
+padding: 8px;
+border-radius:5px;
+background: rgb(220, 229, 238);
+display: flex;
+align-items: center;
+
+}
+
+.search_box i{
+
+  margin-right: 10px;
+  color: #5bc3f4;
+}
+
+.search_box input{
+
+  background: transparent;
+  cursor: pointer;
+
+
+}
+
+
+table{
+
+
+  width: 100%;
+  text-align: left;
+
+}
+
+table th,td{
+
+  font-size: 16px;
+  padding: 0.8rem 2rem;
+  color: rgb(170, 170, 170);
+  border-bottom: 1px solid  rgb(220, 220, 220) ;
+
+}
+
+
+.name{
+
+  padding: 0px;
+  margin-left: 2px;
+}
+.btn{
+
+  display: flex;
+  margin-left: 10px;
+
+  
+}
+.btn .btn1{
+
+
+  margin-left: 50px;
+  
+
+
+}
+.button-9{
+
+ 
+
+
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+
+
+}
+
+
+
+
+
+.btn .btn2{
+
+  margin-left: 320px;
+}
+
+
+.button-10{
+
+  
+
+
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+ 
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+
+
+}
+
+
+.btn .btn3{
+
+  margin-left: 320px;
+}
+
+
+
+.button-11{
+
+  margin-left: 10px;
+
+
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+
+
+}
